@@ -23,11 +23,9 @@ Do the following:
 const votingAge = 18;
 
 if (29 >= votingAge) {
-  // LOG RESULT
-  // console.log('You can vote!');
+  console.log('You can vote!');
 } else {
-  // LOG RESULT
-  // console.log('You are not old enough.');
+  console.log('You are not old enough.');
 }
 
 
@@ -47,8 +45,7 @@ const age = 29;
 
 if (age >= 21) {
   message = 'Old enough.';
-  // LOG RESULT
-  // console.log(message);
+  console.log(message);
 }
 
 
@@ -65,9 +62,7 @@ Do the following:
 
 const year = '1999';
 Number(year);
-
-// LOG RESULT
-// console.log(year);
+console.log(year);
 
 
 /*
@@ -336,7 +331,7 @@ function vowelCounter(sentence) {
   return vowels.length;
 }
 
-vowelCounter('The quick brown fox jumped over the lazy dog.')
+vowelCounter('The quick brown fox jumped over the lazy dog.');
 
 // TEST
 // console.log(vowelCounter('The quick brown fox jumped over the lazy dog.'));
